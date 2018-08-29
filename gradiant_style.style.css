@@ -1,0 +1,77 @@
+.global-nav {
+  background-color: #1d2023;
+}
+.global-nav-link.active,
+.global-nav-link:hover {
+  background-color: #000000;
+}
+.global-nav .logo-small.kibana,
+.global-nav .logo.kibana {
+    background: linear-gradient(45deg, red, blue);
+    background-image: url(/bundles/logowaf.png);
+    background-image: url(/bundles/logowaf.png), linear-gradient(96deg, #1cfddb, #1e305c);
+    background-size: contain;
+}
+
+.home {
+    min-height: 100vh;
+    max-width: 100% !important;
+    margin: auto;
+    background-color: #252b33;
+}
+
+.euiPage {
+    padding: 5%;
+}
+
+.euiTitle {
+    color: #1cdac5;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Discorevy -> corpo da pagina toda */
+.tab-discover {
+    background-color: #252b33;
+}
+
+/* Discorevy -> sidebar */
+.collapsible-sidebar {
+    background-color: #151b21;
+}
+
+/* Discorevy -> sidebar ( class section da div (.collapsible-sidebar) */
+.sidebar-item {
+    color: #808080;
+    font-weight: 700;
+}
+.sidebar-item:hover {
+        color: white;
+        font-weight: 700;
+}
+
+.sidebar-item h3 {
+    color: white;
+    font-weight: 700;
+}
+
+/* Discorevy -> sidebar ( dentro de section da div (.collapsible-sidebar) corresponde ao título da sidebar */
+.index-pattern {
+    background-color: #1cdac5 !important;
+}
+
+.sidebar-list-header h3 {
+    color: white;
+    font-weight: 700;
+}
+
+/* Discorevy -> Barra de filtro  */
+.filter-bar {
+    z-index: 99999999999;
+    padding: 1%;
+    margin-bottom: 0%;
+    box-shadow: 0px 8px 13px #1c2026;
+    background-color: transparent;
+    border-bottom: solid 0px #D9D9D9;
+}
