@@ -1,0 +1,229 @@
+.global-nav {
+  background-color: #1d2023;
+}
+.global-nav-link.active,
+.global-nav-link:hover {
+  background-color: #000000;
+}
+.global-nav .logo-small.kibana,
+.global-nav .logo.kibana {
+    background: linear-gradient(45deg, red, blue);
+    background-image: url(/bundles/logowaf.png);
+    background-image: url(/bundles/logowaf.png), linear-gradient(96deg, #1cfddb, #1e305c);
+    background-size: contain;
+}
+
+.home {
+    min-height: 100vh;
+    max-width: 100% !important;
+    margin: auto;
+    background-color: #252b33;
+}
+
+.euiPage {
+    padding: 5%;
+}
+
+.euiTitle {
+    color: #1cdac5;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Discorevy -> corpo da pagina toda */
+.tab-discover {
+    background-color: #252b33;
+}
+
+/* Discorevy -> sidebar */
+.collapsible-sidebar {
+    background-color: #151b21;
+}
+
+/* Discorevy -> sidebar ( class section da div (.collapsible-sidebar) */
+.sidebar-item {
+    color: #808080;
+    font-weight: 700;
+}
+.sidebar-item:hover {
+        color: white;
+        font-weight: 700;
+}
+
+.sidebar-item h3 {
+    color: white;
+    font-weight: 700;
+}
+
+/* Discorevy -> sidebar ( dentro de section da div (.collapsible-sidebar) corresponde ao título da sidebar */
+.index-pattern {
+    background-color: #1cdac5 !important;
+}
+
+.sidebar-list-header h3 {
+    color: white;
+    font-weight: 700;
+}
+
+/* Discorevy -> Barra de filtro  */
+.filter-bar {
+    padding: 1%;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border-bottom: solid 1px white;
+}
+
+.filter-bar button {
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: .1s
+
+}
+.filter-bar button:hover {
+    text-decoration: none;
+    background-color: #1cdac5 !important;
+    color: white !important;
+    padding: 5%;
+    border-radius: 50px;
+}
+
+/* Discorevy -> Barra superior de data e pesquisa  */
+.kuiLocalNav {
+    background: transparent !important;
+    color: white;
+}
+
+.kuiLocalNavRow {
+    padding: 1% 2% 0% 2%;
+}
+
+.kuiLocalMenu button{
+    color: white;
+    transition: .4s;
+}
+
+.kuiLocalMenu button:hover{
+    background-color: #1cdac5;
+    color: #252b33;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+/* Discorevy -> Docker part  */
+.doc-table-container {
+    color: white;
+    padding: 3%;
+}
+
+kbn-table dl.source dt, .kbn-table dl.source dt, tbody[kbn-rows] dl.source dt {
+    background-color: rgba(28, 218, 197, 0.44) !important;
+    color: #fbfbfb !important;
+}
+
+/* Sumir o botao Colapse da nav-bar */
+.global-nav-link--close {
+    display: none;
+}
+/* Texto de Erro - Discovery */
+.euiText {
+    color: white;
+}
+
+.euiText h1, .euiText h2, .euiText h3, .euiText h4, .euiText h5, .euiText h6 {
+    color: white;
+}
+
+.kuiButton--primary {
+    color: #FFF;
+    background-color: #1cdac5 !important;
+}
+
+.kuiLink:visited, .kuiLink:active {
+    color: #1cdac5;
+}
+
+.euiText a {
+    color: #1cdac5;
+}
+
+/*Background - Visualize */
+.tab-visualize {
+    background-color: #252b33;
+}
+
+/*Empty Message - Visualize */
+.kuiEmptyTablePrompt__message {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
+
+.kuiPagerText {
+    color: white;
+}
+
+.kuiButton--basic {
+    color: white;
+    background-color: #1cdac5;
+}
+
+.kuiTitle {
+    color: white;
+}
+
+/*Background - Dashboard */
+.tab-dashboards {
+    background-color: #252b33;
+}
+
+/*Texte do lado das setas - Dashboard */
+.kuiToolBarText {
+    color: white;
+}
+
+
+/*Dashboard -> Add - Background*/
+.tab-dashboard {
+    background-color: #252b33 !important;
+}
+
+.dashboard-container-with-margins {
+    background-color:  #252b33 !important;
+}
+
+.dashboard-viewport-with-margins {
+    background-color: transparent !important;
+ }
+
+ .layout-with-margins {
+    background-color: transparent !important;
+}
+
+/*Dashboard -> Add - <a> link*/
+
+.kuiLocalBreadcrumb__link:visited, .kuiLocalBreadcrumb__link:active {
+    color: #1cdac5;
+}
+
+/*Dashboard -> resize*/
+
+.vis-editor .default-editor__resizer {
+	background-color: grey !important;
+}
+
+.vis-editor .default-editor__resizer:hover {
+    background-color: #1cdac5 !important;
+}
+
+.subnav .container-fluid{
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.vis-editor-config .sidebar-item:hover{
+	color: black;
+}
